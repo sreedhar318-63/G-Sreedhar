@@ -1,0 +1,18 @@
+:root{
+  --bg:#f5f7fb;
+  --accent:#0b5cff;
+  --muted:#555;
+}
+*{box-sizing:border-box;margin:0;padding:0;font-family:Inter,system-ui,Arial,Helvetica,sans-serif}
+body{background:var(--bg);color:#222;line-height:1.4;padding:24px}
+.site-header{text-align:center;margin-bottom:20px}
+.site-header h1{font-size:2rem}
+.tagline{color:var(--muted)}
+.content{max-width:900px;margin:0 auto;background:white;padding:20px;border-radius:12px;box-shadow:0 6px 20px rgba(10,10,20,0.06)}
+.hero{margin-bottom:18px}
+button{background:var(--accent);color:white;border:none;padding:10px 14px;border-radius:8px;cursor:pointer}
+button:hover{opacity:0.95}
+.projects ul{margin-top:8px;list-style:disc;padding-left:20px;color:var(--muted)}
+.site-footer{text-align:center;margin-top:14px;font-size:0.9rem;color:var(--muted)}
+a{color:var(--accent);text-decoration:none}
+
